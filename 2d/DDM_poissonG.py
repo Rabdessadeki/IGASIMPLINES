@@ -164,7 +164,7 @@ ax.zaxis.set_major_formatter(FormatStrFormatter('%.02f'))
 #ax.set_title('Approximate Solution in adaptive meshes')
 ax.set_xlabel('X',  fontweight ='bold')
 ax.set_ylabel('Y',  fontweight ='bold')
-#plt.savefig('Poisson3D.png')
+plt.savefig('Poisson3D.png')
 plt.show()
  
 
